@@ -17,8 +17,8 @@ export default function ServicesDonePage() {
       id: 1,
       carName: "Toyota Corolla 2020",
       numberPlate: "LHR-1234",
-      image: "/placeholder.svg?height=300&width=400",
-      // image: "/public/images/corolla.png?height=300&width=400",
+      // image: "/placeholder.svg?height=300&width=400",
+      image: "/public/images/corolla.png?height=300&width=400",
       dateServiced: "2024-01-15",
       services: ["Oil Change", "Brake Repair", "Engine Diagnostic", "AC Service"],
       customerName: "Ahmad Ali",
@@ -180,7 +180,6 @@ export default function ServicesDonePage() {
                   <div className="relative h-48 w-full overflow-hidden rounded-t-lg">
                     <Image
                       src={car.image || "/placeholder.svg"}
-                      // src={car.image || "/images/corolla.png"}
                       alt={`${car.carName} - ${car.numberPlate}`}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
