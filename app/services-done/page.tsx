@@ -179,7 +179,8 @@ export default function ServicesDonePage() {
                 <CardHeader className="p-0">
                   <div className="relative h-48 w-full overflow-hidden rounded-t-lg">
                     <Image
-                      src={car.image || "/placeholder.svg"}
+                      // src={car.image || "/placeholder.svg"}
+                      src={car.image || "/images/corolla.png"}
                       alt={`${car.carName} - ${car.numberPlate}`}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
