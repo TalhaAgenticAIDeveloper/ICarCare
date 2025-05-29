@@ -249,7 +249,7 @@ export default function ServicesDonePage() {
             Join our satisfied customers and experience professional automotive care at iCarCare.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-black border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3" asChild>
+            <Button size="lg" variant="outline" className="bg-black border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3" asChild>
               <a href="tel:+923366673332">
                 <Phone className="mr-2 h-5 w-5" />
                 Call 0336-6673332
