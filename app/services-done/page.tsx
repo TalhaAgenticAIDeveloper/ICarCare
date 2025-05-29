@@ -27,7 +27,7 @@ export default function ServicesDonePage() {
       id: 2,
       carName: "Honda Civic 2019",
       numberPlate: "ISB-5678",
-      image: "/images/grande.png?height=300&width=400",
+      image: "/images/honda_civic.jpg?height=300&width=400",
       dateServiced: "2024-01-12",
       services: ["Transmission Service", "Tire Rotation", "Battery Replacement"],
       customerName: "Fatima Khan",
