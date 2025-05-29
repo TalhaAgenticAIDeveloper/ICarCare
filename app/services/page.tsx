@@ -126,7 +126,7 @@ export default function ServicesPage() {
           <p className="text-xl mb-8 text-blue-100">
             We offer many additional automotive services. Contact us to discuss your specific needs.
           </p>
-          <Button size="lg" className="bg-black border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3" asChild>
+          <Button size="lg" variant="outline" className="bg-black border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3" asChild>
             <a href="tel:+923366673332">
               <Phone className="mr-2 h-5 w-5" />
               Call 0336-6673332
