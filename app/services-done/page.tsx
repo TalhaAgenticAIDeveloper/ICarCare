@@ -18,7 +18,7 @@ export default function ServicesDonePage() {
       carName: "Toyota Corolla 2020",
       numberPlate: "LHR-1234",
       // image: "/placeholder.svg?height=300&width=400",
-      image: "/images/corolla.png?height=300&width=400",
+      image: "/images/corolla.png?height=200&width=400",
       dateServiced: "2024-01-15",
       services: ["Oil Change", "Brake Repair", "Engine Diagnostic", "AC Service"],
       customerName: "Ahmad Ali",
